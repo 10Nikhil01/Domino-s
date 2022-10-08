@@ -90,9 +90,9 @@ header a:hover {
 .task-container {
   position: relative;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background-image: linear-gradient(to top, #6240d1 0%, #ed5a5a 100%);
   max-width: 100vw;
   height: auto;
